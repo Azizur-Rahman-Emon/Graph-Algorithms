@@ -36,6 +36,7 @@ int main()
             cin>>grid[i][j];
         }
     }
+ memset(visit,false,sizeof(visit));
     int si,sj;
     cin>>si>>sj;
     dfs(si,sj);
