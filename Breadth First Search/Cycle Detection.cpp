@@ -40,7 +40,7 @@ int main()
         adj_list[b].push_back(a);
     }
     memset(vis,false,sizeof(vis));
-    memset(parent,false,sizeof(parent));
+    memset(parent,-1,sizeof(parent));
     cycle = false;
     for(int i=0;i<n;i++){
         if(!vis[i])
